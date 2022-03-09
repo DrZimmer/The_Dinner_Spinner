@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    background-image: url('../assets/images/pasta.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+}
+
+text{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:11px;
+    pointer-events:none;
+}
+#chart{
+    position:absolute;
+    width:500px;
+    height:500px;
+    top:0;
+    left:0;
+}
+#question{
+    position: absolute;
+    width:400px;
+    height:500px;
+    top:0;
+    left:520px;
+}
+#question h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top:50%;
+    -webkit-transform:translate(0,-50%);
+            transform:translate(0,-50%);
+}
+
+
+
+.container-main {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 30%;
+    height: 710px;
+    background-image: linear-gradient(to bottom right, #3f7832, #d6d390);
+    border-radius: 2%;
+    opacity: 96%;
+  }
+
+
+ 
